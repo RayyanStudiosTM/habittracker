@@ -358,7 +358,7 @@ export default function HabitTracker() {
             return logDate.getTime() === today.getTime();
           });
           
-          let newLogs = [...habit.logs];
+          const newLogs = [...habit.logs];
           const completed = habit.frequency === 'daily' && value >= habit.goal;
           
           if (todayLogIndex >= 0) {
@@ -387,7 +387,7 @@ export default function HabitTracker() {
             newStreak += 1;
             
             // Check if we've earned a new badge
-            let newBadges = [...habit.badges];
+            const newBadges = [...habit.badges];
             
             if (newStreak === 7 && !habit.badges.some(b => b.name === 'Week Warrior')) {
               newBadges.push({
@@ -727,7 +727,7 @@ export default function HabitTracker() {
             
             {/* Today's habits */}
             <div className="mb-8">
-              <h3 className="mb-4 text-xl font-semibold">Today's Habits</h3>
+              <h3 className="mb-4 text-xl font-semibold">Today&apos;s Habits</h3>
               <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
                 {habits.map(habit => {
                   const today = new Date();
@@ -1384,7 +1384,7 @@ export default function HabitTracker() {
                       className="w-full rounded-lg border border-gray-300 p-2.5 dark:border-gray-600 dark:bg-gray-700"
                     />
                   </div>
-                </div>
+                  </div>
                 
                 <div>
                   <label className="mb-1 block text-sm font-medium">Frequency</label>
