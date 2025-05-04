@@ -1767,8 +1767,4 @@ export default function HabitTracker() {
       </div>
     </div>
   );
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 0ea794c39404871132771e62153739db53ceda11
