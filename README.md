@@ -24,6 +24,14 @@
 
 ---
 
+## ✨ Demo
+
+- Check out the live version here:
+
+- 👉 https://habittracker-55ue.vercel.app
+
+---
+
 ## 🔧 Getting Started
 
 To run the project locally:
@@ -34,10 +42,3 @@ cd habittracker
 npm install
 npm run dev
 
----
-
-## ✨ Demo
-
-Check out the live version here:
-
-👉 https://habittracker-55ue.vercel.app
