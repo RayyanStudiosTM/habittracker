@@ -34,6 +34,8 @@ cd habittracker
 npm install
 npm run dev
 
+---
+
 ## ✨ Demo
 
 Check out the live version here:
