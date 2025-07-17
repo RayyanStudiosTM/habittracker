@@ -33,3 +33,9 @@ git clone https://github.com/your-username/habittracker.git
 cd habittracker
 npm install
 npm run dev
+
+## ✨ Demo
+
+Check out the live version here:
+
+👉 https://habittracker-55ue.vercel.app
